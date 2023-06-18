@@ -1,0 +1,33 @@
+/* ブラウザがそれぞれ持っているCSSをリセットするための記述 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+
+a {
+  text-decoration: none;
+}
+
+header, nav, h2, .main-visual, footer {
+  font-family: Chalkduster, "Bradley Hand", Courier, "Segoe Print", sans-serif;
+}
+
+header {
+  width: 90%; /* 横幅いっぱい */
+  padding: 15px 0;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+}
+
+.position{
+  position: absolute;
+  top: 100px;
+  right: 40px;
+}
+.fa-brands {
+  font-size: 32px;
+}
+
